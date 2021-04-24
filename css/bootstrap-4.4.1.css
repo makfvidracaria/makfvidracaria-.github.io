@@ -10222,3 +10222,11 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+#capa{
+	position: relative;
+	z-index: 0;
+	height: 100%;
+	width: 100%;
+	
+}
