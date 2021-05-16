@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body{
+		background:#d4dbf0;
+		margin: 0px;
+	}
+	
+	.header{
+		position: fixed;
+		height: 100px;
+		width: 100%;
+		z-index: 99;
+		margin: 0;
+		margin-top: 0;
+		background-color: #3574CE;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		vertical-align: middle;
+	}
+	
+	.logo{
+		margin-right: auto;
+		padding-left: 50px;
+		height: 75px;
+	}
+	
+	.header button{
+		padding: 10px;
+		margin-right: 50px;
+		background: #25D366;
+		border-radius: 50px;
+		font-size: 16px;
+		font-family: 'Biennale Light';
+		color: white;
+		border-width: 0px;
+		align-self: center;
+		cursor: pointer;
+		box-shadow: 3px 5px 3px rgba(0,0,0,0.5);
+	}
+	
+	
+	.header button:hover{
+		color: #fff;
+		background-color: cornflowerblue;
+		font-family: 'Biennale Black';
+	}
+	
+	.hero{
+		padding-top:100px;
+		padding-bottom: 100px;
+		position: static;
+		background-image: url("source/hero_1.jpg");
+		background-size:cover;
+		width: 100%;
+		vertical-align: middle;
+	}
+	
+	.hero img {
+		padding-bottom: 50px;
+		margin-top:50px;
+		width: 300px;
+	}
+	
+	.hero h2 {
+		text-shadow: 1px 3px 3px black;
+		font-size: 32px;
+		text-align: center;
+		margin-left:50px;
+		margin-right:50px;
+		font-family: 'Biennale Light';
+		color: #fff;
+	}
+	
+	.hero button{
+		margin-top: 25px;
+		padding: 10px;
+		background: #25D366;
+		border-radius: 50px;
+		font-size: 16px;
+		font-family: 'Biennale Light';
+		color: white;
+		border-width: 0px;
+		align-self: center;
+		cursor: pointer;
+		box-shadow: 3px 5px 3px rgba(0,0,0,0.5);
+	}
+	
+	.hero button:hover{
+		color: #25D366;
+		background-color:lightgoldenrodyellow;
+		font-family: 'Biennale Black';
+	}
+	
+	.landing{
+		position: relative;
+		margin-top: 50px;
+		padding-right: 50px;
+		padding-left: 50px;
+	
+	}
+	
+	.landing h1 {
+		font-size:48px;
+		font-family: 'Biennale Black';
+		color: black;
+	}
+	.landing h2 {
+		font-size:36px;
+		font-family: 'Biennale Light';
+		color: black;
+	}
+	
+	.landing h3 {
+		font-size:24px;
+		font-family: 'Biennale Light';
+		color: black;
+	}
+	
+	.landing li {
+		font-size:24px;
+		font-family: 'Biennale Light';
+		color: black;
+	}
+
+	.card{
+		margin:10px;
+
+	}
+
+	.card li{
+		font-size:18px;
+	}
+
+	.card h5{
+		font-family: 'Biennale Black';
+		color: #3574CE;
+	}
+
+	.card-img-top{
+		height:200px;
+	}
+
+	.bg-color{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		background-color: #fff;
+		background-size:cover;
+		width: 100%;
+	}
+
+	.material-icons{
+		color:#fd941f;
+		font-size: 36px;
+	}
+
+	.landing i h2 {
+		color:#fd941f;
+		font-size: 20px;
+	}
+
+	.gallery img {
+		padding: 10px;
+		width: 400px;
+		height: 300px;
+	}
+
+	footer {
+		background-color:black;
+		display: flex;
+		justify-content: flex-end;
+		color: #fff;
+		padding-right: 10px;
+		font-family: 'Biennale Light';
+	}
+
+	.container h2{
+		font-family: 'Biennale';
+		font-size: 24px;
+	}
+
+	.container h3{
+		font-size: 20px;
+	}
+
+	.container li{
+		font-size: 20px;
+	}
